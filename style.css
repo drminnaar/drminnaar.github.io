@@ -1,0 +1,48 @@
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    margin: 0;
+    margin-top: 5rem;
+    padding: 0;
+}
+
+.jumbotron {
+    background-image: url('img/background.jpeg');
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-content-zooming: none;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.navbar {
+    min-height: 5rem;
+    opacity: 0.9;
+}
+
+.card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 20rem;
+}
+
+.cheatsheet-card {
+    background-color: #FFA726;
+    min-height: 22rem;
+}
+
+.react-card {
+    background-color: #61DAFB;
+    min-height: 22rem;
+}
+
+.noteworx-card {
+    background-color: #B39DDB;
+    min-height: 25rem;
+}
+
+#section-footer {
+    min-height: 400px;
+}
