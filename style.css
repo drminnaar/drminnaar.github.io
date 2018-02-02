@@ -38,6 +38,12 @@ body {
     min-height: 24rem;
 }
 
+.react-redux-card {
+    background-color: #673AB7;
+    color: #EFEFEF;
+    min-height: 24rem;
+}
+
 .noteworx-card {
     background-color: #B39DDB;
     min-height: 25rem;
