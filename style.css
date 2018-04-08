@@ -25,7 +25,7 @@ body {
 .card {
     margin-top: 15px;
     margin-bottom: 15px;
-    min-height: 20rem;
+    height: 27rem;
 }
 
 .cheatsheet-card {
@@ -40,6 +40,12 @@ body {
 
 .react-redux-card {
     background-color: #673AB7;
+    color: #EFEFEF;
+    min-height: 24rem;
+}
+
+.guide-card {
+    background-color: #00897B;
     color: #EFEFEF;
     min-height: 24rem;
 }
