@@ -29,29 +29,35 @@ body {
 }
 
 .cheatsheet-card {
-    background-color: #FFA726;
+    background-color: #ffa726;
     min-height: 22rem;
 }
 
 .react-card {
-    background-color: #61DAFB;
+    background-color: #61dafb;
     min-height: 24rem;
 }
 
 .react-redux-card {
-    background-color: #673AB7;
-    color: #EFEFEF;
+    background-color: #673ab7;
+    color: #efefef;
     min-height: 24rem;
 }
 
 .guide-card {
-    background-color: #00897B;
-    color: #EFEFEF;
+    background-color: #00897b;
+    color: #efefef;
+    min-height: 24rem;
+}
+
+.compsci-card {
+    background-color: #00897b;
+    color: #efefef;
     min-height: 24rem;
 }
 
 .noteworx-card {
-    background-color: #B39DDB;
+    background-color: #b39ddb;
     min-height: 25rem;
 }
 
