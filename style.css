@@ -6,7 +6,8 @@ body {
 }
 
 .jumbotron {
-    background-image: url('img/background.jpeg');
+    /* background-image: url('img/background.jpeg'); */
+    background: dodgerblue;
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -63,4 +64,8 @@ body {
 
 #section-footer {
     min-height: 400px;
+}
+
+.name-title {
+    color: yellow;
 }

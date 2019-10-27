@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, , shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Douglas Minnaar</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+        integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/fonts/font-mfizz.css">
 </head>
@@ -17,8 +17,8 @@
 <body data-spy="scroll" data-target="nav-scrollspy">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#section-top">Douglas Minnaar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false"
-            aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu"
+            aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -28,6 +28,9 @@
                     <a class="nav-link" href="#section-top">Home
                         <span class="sr-only">(current)</span>
                     </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section-csharp">C#</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#section-compsci">Comp Sci</a>
@@ -52,26 +55,103 @@
     </nav>
 
 
-    <section id="section-top" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center m-0">
+    <section id="section-top"
+        class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center m-0">
         <div class="container text-center">
-            <h1 class="display-4 text-uppercase text-warning d-none d-md-block">Douglas Minnaar</h1>
+            <h1 class="display-4 text-uppercase d-none d-md-block name-title">Douglas Minnaar</h1>
             <h1 class="text-uppercase d-none d-md-block">GitHub Project Portfolio</h1>
             <h2 class="text-uppercase text-warning d-sm-block d-md-none">Douglas Minnaar</h2>
             <h4 class="text-uppercase d-sm-block d-md-none">GitHub Project Portfolio</h4>
 
             <div class="d-flex justify-content-center align-items-center">
                 <a href="https://github.com/drminnaar" class="text-white d-inline m-3" target="_blank">
-                    <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+                    <i class="fab fa-github fa-3x" aria-hidden="true"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/douglasminnaar/" class="text-white d-inline m-3" target="_blank">
-                    <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+                    <i class="fab fa-linkedin fa-3x" aria-hidden="true"></i>
                 </a>
                 <a href="https://flipboard.com/@mrdrminnaar" class="d-inline m-3" target="_blank">
                     <img src="https://cdn.flipboard.com/badges/flipboard_lwsw.png" width="40" />
                 </a>
                 <a href="https://twitter.com/drminnaar" class="text-white d-inline m-3" target="_blank">
-                    <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+                    <i class="fab fa-twitter-square fa-3x" aria-hidden="true"></i>
                 </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="section-csharp" class="pt-5" style="background-color: rgb(62, 67, 77); padding-bottom: 100px;">
+        <h1 class="display-5 text-uppercase text-center text-white pt-5 mb-5">C# .NET Core</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card react-redux-card">
+                        <div class="card-header">
+                            <h4 class="card-title m-auto text-center text-uppercase">NoteWorx</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">A basic note management web application that has been built using ASP.NET Core, ASP.NET Core Identity, Entity Framework Core, and Postgresql.</p>
+                            <div class="text-center text-light">
+                                <div class="text-center text-light">
+                                    <i class="fa icon-csharp fa-3x m-2"></i>
+                                    <i class="fa icon-docker  fa-3x m-2"></i>
+                                    <i class="fa icon-postgres fa-3x m-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="https://github.com/drminnaar/noteworx-aspnetcore" target="_blank">
+                                <i class="fab fa-github fa-4x text-light"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card react-redux-card">
+                        <div class="card-header">
+                            <h4 class="card-title m-auto text-center text-uppercase">AWS .NET Core Examples</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">A collection of independent dotnet core projects written in C# that demonstrate how to integrate with various AWS services using the AWS SDK for dotnet </p>
+                            <div class="text-center text-light">
+                                <div class="text-center text-light">
+                                    <i class="fa icon-csharp fa-3x m-2"></i>
+                                    <i class="fa icon-aws  fa-3x m-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="https://github.com/drminnaar/aws-dotnetcore-examples" target="_blank">
+                                <i class="fab fa-github fa-4x text-light"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card react-redux-card">
+                        <div class="card-header">
+                            <h4 class="card-title m-auto text-center text-uppercase">Identity .NET Core</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Shows how to use, customise, and configure Identity on Asp.Net Core with different backend stores (postgresql, mssql, sqlite) </p>
+                            <div class="text-center text-light">
+                                <div class="text-center text-light">
+                                    <i class="fa icon-csharp fa-3x m-2"></i>
+                                    <i class="fa icon-docker  fa-3x m-2"></i>
+                                    <i class="fa icon-postgres fa-3x m-2"></i>
+                                    <i class="fa icon-mssql fa-3x m-2"></i>
+                                    <i class="fas fa-feather fa-3x m-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="https://github.com/drminnaar/identity-dotnetcore-3" target="_blank">
+                                <i class="fab fa-github fa-4x text-light"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -84,18 +164,21 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="card compsci-card">
                         <div class="card-header">
-                            <h4 class="card-title m-auto text-center text-uppercase">Algorithms &amp; Data Structures</h4>
+                            <h4 class="card-title m-auto text-center text-uppercase">Algorithms &amp; Data Structures
+                            </h4>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">This project is a compilation of various algorithms and data structures that have been implemented
+                            <p class="card-text">This project is a compilation of various algorithms and data structures
+                                that have been implemented
                                 using different programming lanaguages</p>
                             <div class="text-center text-light">
                                 <i class="fa fa-flask fa-3x m-2"></i>
                             </div>
                         </div>
                         <div class="card-footer text-center">
-                            <a href="https://github.com/drminnaar/algorithms-and-data-structures" class="text-light" target="_blank">
-                                <i class="fa fa-github fa-5x"></i>
+                            <a href="https://github.com/drminnaar/algorithms-and-data-structures" class="text-light"
+                                target="_blank">
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -115,7 +198,8 @@
                             <h4 class="card-title m-auto text-center text-uppercase">Starter</h4>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">A basic template that consists of the essential elements that are required to start building
+                            <p class="card-text">A basic template that consists of the essential elements that are
+                                required to start building
                                 a React (v16.3) application using Webpack (v4)
                             </p>
                             <div class="text-center text-dark">
@@ -126,7 +210,7 @@
                         </div>
                         <div class="card-footer text-center">
                             <a href="https://github.com/drminnaar/react-starter.git" class="text-dark" target="_blank">
-                                <i class="fa fa-github fa-5x"></i>
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -137,19 +221,21 @@
                             <h4 class="card-title m-auto text-center text-uppercase">Clicker</h4>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">A basic React app that allows one to increase, decrease, or reset a counter</p>
+                            <p class="card-text">A basic React app that allows one to increase, decrease, or reset a
+                                counter</p>
                             <div class="text-center text-dark">
                                 <i class="fa icon-reactjs fa-3x m-2"></i>
                                 <i class="fa icon-nodejs fa-3x m-2"></i>
                                 <i class="fa icon-3dprint fa-3x m-2"></i>
                             </div>
                             <p class="text-center my-2">
-                                <a href="http://react-clicker.drminnaar.me" class="btn btn-outline-dark" target="_blank">VIEW DEMO</a>
+                                <a href="http://react-clicker.drminnaar.me" class="btn btn-outline-dark"
+                                    target="_blank">VIEW DEMO</a>
                             </p>
                         </div>
                         <div class="card-footer text-center">
                             <a href="https://github.com/drminnaar/react-clicker.git" class="text-dark" target="_blank">
-                                <i class="fa fa-github fa-5x"></i>
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -167,12 +253,14 @@
                                 <i class="fa icon-3dprint fa-3x m-2"></i>
                             </div>
                             <p class="text-center my-2">
-                                <a href="http://react-clock-basic.drminnaar.me" class="btn btn-outline-dark" target="_blank">VIEW DEMO</a>
+                                <a href="http://react-clock-basic.drminnaar.me" class="btn btn-outline-dark"
+                                    target="_blank">VIEW DEMO</a>
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <a href="https://github.com/drminnaar/react-clock-basic.git" class="text-dark" target="_blank">
-                                <i class="fa fa-github fa-5x"></i>
+                            <a href="https://github.com/drminnaar/react-clock-basic.git" class="text-dark"
+                                target="_blank">
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -183,19 +271,22 @@
                             <h4 class="card-title m-auto text-center text-uppercase">Timer (Basic)</h4>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">A basic timer that will start a countdown based on an input of time in seconds</p>
+                            <p class="card-text">A basic timer that will start a countdown based on an input of time in
+                                seconds</p>
                             <div class="text-center text-dark">
                                 <i class="fa icon-reactjs fa-3x m-2"></i>
                                 <i class="fa icon-nodejs fa-3x m-2"></i>
                                 <i class="fa icon-3dprint fa-3x m-2"></i>
                             </div>
                             <p class="text-center my-2">
-                                <a href="http://react-timer-basic.drminnaar.me" class="btn btn-outline-dark" target="_blank">VIEW DEMO</a>
+                                <a href="http://react-timer-basic.drminnaar.me" class="btn btn-outline-dark"
+                                    target="_blank">VIEW DEMO</a>
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <a href="https://github.com/drminnaar/react-timer-basic.git" class="text-dark" target="_blank">
-                                <i class="fa fa-github fa-5x"></i>
+                            <a href="https://github.com/drminnaar/react-timer-basic.git" class="text-dark"
+                                target="_blank">
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -213,12 +304,14 @@
                                 <i class="fa icon-3dprint fa-3x m-2"></i>
                             </div>
                             <p class="text-center my-2">
-                                <a href="http://react-timer-advanced.drminnaar.me" class="btn btn-outline-dark" target="_blank">VIEW DEMO</a>
+                                <a href="http://react-timer-advanced.drminnaar.me" class="btn btn-outline-dark"
+                                    target="_blank">VIEW DEMO</a>
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <a href="https://github.com/drminnaar/react-timer-advanced.git" class="text-dark" target="_blank">
-                                <i class="fa fa-github fa-5x"></i>
+                            <a href="https://github.com/drminnaar/react-timer-advanced.git" class="text-dark"
+                                target="_blank">
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -236,12 +329,14 @@
                                 <i class="fa icon-3dprint fa-3x m-2"></i>
                             </div>
                             <p class="text-center my-2">
-                                <a href="http://react-masterminds.drminnaar.me" class="btn btn-outline-dark" target="_blank">VIEW DEMO</a>
+                                <a href="http://react-masterminds.drminnaar.me" class="btn btn-outline-dark"
+                                    target="_blank">VIEW DEMO</a>
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <a href="https://github.com/drminnaar/react-masterminds.git" class="text-dark" target="_blank">
-                                <i class="fa fa-github fa-5x"></i>
+                            <a href="https://github.com/drminnaar/react-masterminds.git" class="text-dark"
+                                target="_blank">
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -252,19 +347,22 @@
                             <h4 class="card-title m-auto text-center text-uppercase">Movie Cards</h4>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">A basic application that displays a list of movies as a list of cards</p>
+                            <p class="card-text">A basic application that displays a list of movies as a list of cards
+                            </p>
                             <div class="text-center text-dark">
                                 <i class="fa icon-reactjs fa-3x m-2"></i>
                                 <i class="fa icon-nodejs fa-3x m-2"></i>
                                 <i class="fa icon-3dprint fa-3x m-2"></i>
                             </div>
                             <p class="text-center my-2">
-                                <a href="http://react-movie-cards.drminnaar.me" class="btn btn-outline-dark" target="_blank">VIEW DEMO</a>
+                                <a href="http://react-movie-cards.drminnaar.me" class="btn btn-outline-dark"
+                                    target="_blank">VIEW DEMO</a>
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <a href="https://github.com/drminnaar/react-movie-cards.git" class="text-dark" target="_blank">
-                                <i class="fa fa-github fa-5x"></i>
+                            <a href="https://github.com/drminnaar/react-movie-cards.git" class="text-dark"
+                                target="_blank">
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -275,7 +373,8 @@
                             <h4 class="card-title m-auto text-center text-uppercase">Standard Calculator</h4>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">A calculator that provides the essential arithmetic operations, an expression builder, and a
+                            <p class="card-text">A calculator that provides the essential arithmetic operations, an
+                                expression builder, and a
                                 complete history of all expressions</p>
                             <div class="text-center text-dark">
                                 <i class="fa icon-reactjs fa-3x m-2"></i>
@@ -283,12 +382,14 @@
                                 <i class="fa icon-3dprint fa-3x m-2"></i>
                             </div>
                             <p class="text-center my-2">
-                                <a href="http://react-calculator-standard.drminnaar.me" class="btn btn-outline-dark" target="_blank">VIEW DEMO</a>
+                                <a href="http://react-calculator-standard.drminnaar.me" class="btn btn-outline-dark"
+                                    target="_blank">VIEW DEMO</a>
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <a href="https://github.com/drminnaar/react-calculator-standard.git" class="text-dark" target="_blank">
-                                <i class="fa fa-github fa-5x"></i>
+                            <a href="https://github.com/drminnaar/react-calculator-standard.git" class="text-dark"
+                                target="_blank">
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -299,7 +400,8 @@
                             <h4 class="card-title m-auto text-center text-uppercase">Bitcoin Monitor</h4>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">An app that monitors changes in the Bitcoin Price Index (BPI). Powered by CoinDesk</p>
+                            <p class="card-text">An app that monitors changes in the Bitcoin Price Index (BPI). Powered
+                                by CoinDesk</p>
                             <div class="text-center text-dark">
                                 <i class="fa icon-reactjs fa-3x m-2"></i>
                                 <i class="fa icon-nodejs fa-3x m-2"></i>
@@ -307,12 +409,14 @@
                                 <i class="fa icon-bitcoin fa-3x m-2"></i>
                             </div>
                             <p class="text-center my-2">
-                                <a href="http://react-bitcoin-monitor.drminnaar.me" class="btn btn-outline-dark" target="_blank">VIEW DEMO</a>
+                                <a href="http://react-bitcoin-monitor.drminnaar.me" class="btn btn-outline-dark"
+                                    target="_blank">VIEW DEMO</a>
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <a href="https://github.com/drminnaar/react-bitcoin-monitor.git" class="text-dark" target="_blank">
-                                <i class="fa fa-github fa-5x"></i>
+                            <a href="https://github.com/drminnaar/react-bitcoin-monitor.git" class="text-dark"
+                                target="_blank">
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -323,19 +427,22 @@
                             <h4 class="card-title m-auto text-center text-uppercase">Weather Monitor</h4>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">A weather application that provides the current weather, daily forecast, and hourly forecast</p>
+                            <p class="card-text">A weather application that provides the current weather, daily
+                                forecast, and hourly forecast</p>
                             <div class="text-center text-dark">
                                 <i class="fa icon-reactjs fa-3x m-2"></i>
                                 <i class="fa icon-nodejs fa-3x m-2"></i>
                                 <i class="fa icon-3dprint fa-3x m-2"></i>
                             </div>
                             <p class="text-center my-2">
-                                <a href="http://react-weather-standard.drminnaar.me" class="btn btn-outline-dark" target="_blank">VIEW DEMO</a>
+                                <a href="http://react-weather-standard.drminnaar.me" class="btn btn-outline-dark"
+                                    target="_blank">VIEW DEMO</a>
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <a href="https://github.com/drminnaar/react-weather-standard.git" class="text-dark" target="_blank">
-                                <i class="fa fa-github fa-5x"></i>
+                            <a href="https://github.com/drminnaar/react-weather-standard.git" class="text-dark"
+                                target="_blank">
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -355,9 +462,11 @@
                             <h4 class="card-title m-auto text-center text-uppercase">React Redux Starter</h4>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">A basic template that consists of the essential elements that are required to start building
-                                a Single Page Application using React, React Router, Redux, Bootstrap 4, Sass, and Webpack
-                                </p>
+                            <p class="card-text">A basic template that consists of the essential elements that are
+                                required to start building
+                                a Single Page Application using React, React Router, Redux, Bootstrap 4, Sass, and
+                                Webpack
+                            </p>
                             <div class="text-center text-light">
                                 <div class="text-center text-light">
                                     <i class="fa icon-reactjs fa-3x m-2"></i>
@@ -368,7 +477,7 @@
                         </div>
                         <div class="card-footer text-center">
                             <a href="https://github.com/drminnaar/react-redux-starter" target="_blank">
-                                <i class="fa fa-github fa-5x text-light"></i>
+                                <i class="fab fa-github fa-4x text-light"></i>
                             </a>
                         </div>
                     </div>
@@ -379,7 +488,8 @@
                             <h4 class="card-title m-auto text-center text-uppercase">Quotlify</h4>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">A quote browser and manager that allows one to search famous quotes and save them to a data store</p>
+                            <p class="card-text">A quote browser and manager that allows one to search famous quotes and
+                                save them to a data store</p>
                             <div class="text-center text-light">
                                 <div class="text-center text-light">
                                     <i class="fa icon-reactjs fa-3x m-2"></i>
@@ -388,12 +498,13 @@
                                 </div>
                             </div>
                             <p class="text-center my-2">
-                                <a href="http://react-redux-quotlify.drminnaar.me" class="btn btn-outline-light" target="_blank">VIEW DEMO</a>
+                                <a href="http://react-redux-quotlify.drminnaar.me" class="btn btn-outline-light"
+                                    target="_blank">VIEW DEMO</a>
                             </p>
                         </div>
                         <div class="card-footer text-center">
                             <a href="https://github.com/drminnaar/react-redux-quotlify" target="_blank">
-                                <i class="fa fa-github fa-5x text-light"></i>
+                                <i class="fab fa-github fa-4x text-light"></i>
                             </a>
                         </div>
                     </div>
@@ -413,7 +524,8 @@
                             <h4 class="card-title m-auto text-center text-uppercase">Part 1</h4>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">A basic note application that uses a CLI (Command Line Interface) frontend to capture and manage
+                            <p class="card-text">A basic note application that uses a CLI (Command Line Interface)
+                                frontend to capture and manage
                                 notes, and a file system to store notes </p>
                             <div class="text-center text-dark">
                                 <i class="fa icon-nodejs fa-3x m-2"></i>
@@ -421,7 +533,7 @@
                         </div>
                         <div class="card-footer text-center">
                             <a href="https://github.com/drminnaar/noteworx-cli-fs.git" class="text-dark">
-                                <i class="fa fa-github fa-5x"></i>
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -432,7 +544,8 @@
                             <h4 class="card-title m-auto text-center text-uppercase">Part 2</h4>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">A basic note application that uses a CLI (Command Line Interface) frontend to capture and manage
+                            <p class="card-text">A basic note application that uses a CLI (Command Line Interface)
+                                frontend to capture and manage
                                 notes, and Mongodb to store notes</p>
                             <div class="text-center text-dark">
                                 <i class="fa icon-nodejs fa-3x m-2"></i>
@@ -442,7 +555,7 @@
                         </div>
                         <div class="card-footer text-center">
                             <a href="https://github.com/drminnaar/noteworx-cli-mongodb.git" class="text-dark">
-                                <i class="fa fa-github fa-5x"></i>
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -453,7 +566,8 @@
                             <h4 class="card-title m-auto text-center text-uppercase">Part 3</h4>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">A basic note application that uses a CLI (Command Line Interface) frontend to capture and manage
+                            <p class="card-text">A basic note application that uses a CLI (Command Line Interface)
+                                frontend to capture and manage
                                 notes, Mongoose ODM to manage MongoDB interaction, and mongodb to store notes</p>
                             <div class="d-flex justify-content-center align-items-center text-dark">
                                 <i class="fa icon-nodejs fa-3x m-2"></i>
@@ -464,7 +578,7 @@
                         </div>
                         <div class="card-footer text-center">
                             <a href="https://github.com/drminnaar/noteworx-cli-mongoose.git" class="text-dark">
-                                <i class="fa fa-github fa-5x"></i>
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -475,7 +589,8 @@
                             <h4 class="card-title m-auto text-center text-uppercase">Part 4</h4>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">A basic note application that uses a CLI (Command Line Interface) frontend to capture and manage
+                            <p class="card-text">A basic note application that uses a CLI (Command Line Interface)
+                                frontend to capture and manage
                                 notes, and Couchbase Server as a data store</p>
                             <div class="d-flex justify-content-center align-items-center text-dark">
                                 <i class="fa icon-nodejs fa-3x m-2"></i>
@@ -485,7 +600,7 @@
                         </div>
                         <div class="card-footer text-center">
                             <a href="https://github.com/drminnaar/noteworx-cli-couchbase.git" class="text-dark">
-                                <i class="fa fa-github fa-5x"></i>
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -496,8 +611,10 @@
                             <h4 class="card-title m-auto text-center text-uppercase">Part 5</h4>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">A basic note application that uses a CLI (Command Line Interface) frontend to capture and manage
-                                notes, an express note management API built using Express, and Mongodb to store notes</p>
+                            <p class="card-text">A basic note application that uses a CLI (Command Line Interface)
+                                frontend to capture and manage
+                                notes, an express note management API built using Express, and Mongodb to store notes
+                            </p>
                             <div class="d-flex justify-content-center align-items-center text-dark">
                                 <i class="fa icon-nodejs fa-3x m-2"></i>
                                 <i class="fa icon-mongodb fa-3x m-2"></i>
@@ -507,7 +624,7 @@
                         </div>
                         <div class="card-footer text-center">
                             <a href="https://github.com/drminnaar/noteworx-cli-express-mongodb.git" class="text-dark">
-                                <i class="fa fa-github fa-5x"></i>
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -518,7 +635,8 @@
                             <h4 class="card-title m-auto text-center text-uppercase">Part 6</h4>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">A basic note application that uses an Express frontend to capture and manage notes, and mongodb
+                            <p class="card-text">A basic note application that uses an Express frontend to capture and
+                                manage notes, and mongodb
                                 to store notes</p>
                             <div class="d-flex justify-content-center align-items-center text-dark">
                                 <i class="fa icon-nodejs fa-3x m-2"></i>
@@ -529,7 +647,7 @@
                         </div>
                         <div class="card-footer text-center">
                             <a href="https://github.com/drminnaar/noteworx-expressui-mongodb.git" class="text-dark">
-                                <i class="fa fa-github fa-5x"></i>
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -540,7 +658,8 @@
                             <h4 class="card-title m-auto text-center text-uppercase">Part 7</h4>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">A basic note application that uses React frontend to capture and manage notes, an api written
+                            <p class="card-text">A basic note application that uses React frontend to capture and manage
+                                notes, an api written
                                 in ExpressJS, and Mongodb to store notes</p>
                             <div class="d-flex justify-content-center align-items-center text-dark">
                                 <i class="fa icon-nodejs fa-3x m-2"></i>
@@ -552,7 +671,7 @@
                         </div>
                         <div class="card-footer text-center">
                             <a href="https://github.com/drminnaar/noteworx-react-mongodb.git" class="text-dark">
-                                <i class="fa fa-github fa-5x"></i>
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -578,8 +697,9 @@
                             </div>
                         </div>
                         <div class="card-footer text-center">
-                            <a href="https://github.com/drminnaar/cheatsheets/blob/master/git-ubuntu-cheatsheet.md" class="text-dark">
-                                <i class="fa fa-github fa-5x"></i>
+                            <a href="https://github.com/drminnaar/cheatsheets/blob/master/git-ubuntu-cheatsheet.md"
+                                class="text-dark">
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -590,14 +710,16 @@
                             <h4 class="card-title m-auto text-center text-uppercase">Docker</h4>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">This cheatsheet provides a collection of commonly used docker commands.</p>
+                            <p class="card-text">This cheatsheet provides a collection of commonly used docker commands.
+                            </p>
                             <div class="text-center text-dark">
                                 <i class="fa icon-docker fa-3x m-2"></i>
                             </div>
                         </div>
                         <div class="card-footer text-center">
-                            <a href="https://github.com/drminnaar/cheatsheets/blob/master/docker-cheatsheet.md" class="text-dark">
-                                <i class="fa fa-github fa-5x"></i>
+                            <a href="https://github.com/drminnaar/cheatsheets/blob/master/docker-cheatsheet.md"
+                                class="text-dark">
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -617,7 +739,8 @@
                             <h4 class="card-title m-auto text-center text-uppercase">Docker</h4>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">This is a guide on Docker technology. The intent of the guide is to serve as a starting point
+                            <p class="card-text">This is a guide on Docker technology. The intent of the guide is to
+                                serve as a starting point
                                 for those not familiar with Docker. However it is also meant for experienced individuals
                                 that may be looking for alternative ways of looking at Docker.</p>
                             <div class="text-center text-light">
@@ -625,8 +748,9 @@
                             </div>
                         </div>
                         <div class="card-footer text-center">
-                            <a href="https://github.com/drminnaar/guides/tree/master/docker-guide" class="text-light" target="_blank">
-                                <i class="fa fa-github fa-5x"></i>
+                            <a href="https://github.com/drminnaar/guides/tree/master/docker-guide" class="text-light"
+                                target="_blank">
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -637,15 +761,17 @@
                             <h4 class="card-title m-auto text-center text-uppercase">MongoDB</h4>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">This is a guide on MongoDB database technology. The intent of the guide is to serve as a starting
+                            <p class="card-text">This is a guide on MongoDB database technology. The intent of the guide
+                                is to serve as a starting
                                 point for those starting out with MongoDB.</p>
                             <div class="text-center text-light">
                                 <i class="fa icon-mongodb fa-3x m-2"></i>
                             </div>
                         </div>
                         <div class="card-footer text-center">
-                            <a href="https://github.com/drminnaar/guides/tree/master/mongodb-guide" class="text-light" target="_blank">
-                                <i class="fa fa-github fa-5x"></i>
+                            <a href="https://github.com/drminnaar/guides/tree/master/mongodb-guide" class="text-light"
+                                target="_blank">
+                                <i class="fab fa-github fa-4x"></i>
                             </a>
                         </div>
                     </div>
@@ -659,14 +785,19 @@
     </section>
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.min.js" integrity="sha256-MMt0/21G3z0Zg4ET1kI3HC9npItDowkitRDVr0FhCxA="
-        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.0/smooth-scroll.min.js"
+        integrity="sha256-CfyPGYLRQ4v1O+mZa5ocQglABXGuaZmmfe8awy8Fxis=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.0/smooth-scroll.polyfills.min.js"
+        integrity="sha256-u2wIV5+HF1PsPTvNHkl1f6g0LhNv1aSFuHGkBovDJiM=" crossorigin="anonymous"></script>
     <script>
         $(function () {
 
